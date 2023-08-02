@@ -8,7 +8,7 @@ import logger from '@/common/logger';
 import router from '@/routes';
 
 export class App {
-  private app: Application;
+  public app: Application;
 
   constructor() {
     this.app = express();
